@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trigger</fullName>
+    <types>
+        <members>ITriggerHandler</members>
+        <members>TriggerDispatcher</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Trigger_Settings__mdt.AfterDelete__c</members>
+        <members>Trigger_Settings__mdt.AfterInsert__c</members>
+        <members>Trigger_Settings__mdt.AfterUndelete__c</members>
+        <members>Trigger_Settings__mdt.AfterUpdate__c</members>
+        <members>Trigger_Settings__mdt.BeforeDelete__c</members>
+        <members>Trigger_Settings__mdt.BeforeInsert__c</members>
+        <members>Trigger_Settings__mdt.BeforeUpdate__c</members>
+        <members>Trigger_Settings__mdt.IsDisabled__c</members>
+        <members>Trigger_Settings__mdt.Object_API_Name__c</members>
+        <members>Trigger_Settings__mdt.Recursive_Control__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Trigger_Settings__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Trigger_Settings__mdt-Trigger Setting Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>48.0</version>
+</Package>
