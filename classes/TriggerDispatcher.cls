@@ -1,15 +1,15 @@
 /**
  * @File Name          : TriggerDispatcher.cls
  * @Description        : This class checks for Recurrsive and handler router only if trigger and Trigger context are on
- * @Author             : Dinesh Ramanadham
+ * @Author             : Raj Gonola
  * @Group              : 
- * @Last Modified By   : Dinesh Ramanadham
+ * @Last Modified By   : Raj Gonola
  * @Last Modified On   : 4152020, 1:28:30 PM
  * @Modification Log   : 
  *==============================================================================
  * Ver         Date                     Author      		      Modification
  *==============================================================================
- * 1.0    8/28/2019, 4:39:06 PM   Dinesh Ramanadham      Initial Version
+ * 1.0    8/28/2019, 4:39:06 PM   Raj Gonola      Initial Version
 **/
 public class TriggerDispatcher {
     private static Map<String, Integer> beforeInsertCounterMap = new Map<String, Integer>();
